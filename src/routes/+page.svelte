@@ -29,6 +29,29 @@
 
     </div>
 
+    <div class="flex flex-col justify-center items-center">
+        <div class="grid grid-cols-4 max-w-6xl gap-2">
+           {#each listings as listing}
+                <div>
+                    <div>{listing.project_name}</div>
+                    <a href="/listings/{listing.id}">
+                        <img src="{listing.project_image}" alt="" class="hover:rotate-1 transition"/>
+                    </a>
+                </div>
+            {/each} 
+        </div>
+        
+
+    </div>
+
 
 </div>
+
+
+<script>
+  let { data } = $props();
+  let listings = $derived(data.listings);
+</script>
+
+
 
