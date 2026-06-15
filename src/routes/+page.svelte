@@ -35,7 +35,7 @@
                 <div>
                     <div>{listing.project_name}</div>
                     <a href="/listings/{listing.id}">
-                        <img src="{listing.project_image}" alt="" class="hover:rotate-1 transition"/>
+                        <img src="{listing.project_image}" alt="" class="hover:rotate-1 glow transition"/>
                     </a>
                 </div>
             {/each} 
