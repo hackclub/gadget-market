@@ -2,7 +2,7 @@
 
 <div class="page-outline">
 
-    <img src="/landingtop.svg" alt="" class="w-full object-cover object-center h-12 md:h-auto"/>
+    <img src="/landingtop.png" alt="" class="w-full object-cover object-center h-12 md:h-auto"/>
 
     <div class="flex flex-col items-center justify-center">
 

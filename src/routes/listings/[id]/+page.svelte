@@ -9,7 +9,7 @@
 
     <div class="flex flex-col justify-center items-center flex-1">
 
-        <div class="flex space-x-8 items-start">
+        <div class="flex flex-wrap space-x-8 items-start">
             <img src="{listing.project_image}" alt="{listing.project_name}" class="w-105 object-cover rounded"/>
             <div class="flex flex-col space-y-2">
                 <div class="flex flex-row space-x-2 *:rounded *:hover:scale-105 *:transition">
