@@ -39,8 +39,8 @@
 
 
     <div class="flex flex-col justify-center items-center pl-8 pr-8 py-12">
-        <p class="mb-4 text-[#B55108]"><i>click on any of the flyers below to see the project listing!</i></p>
-        <div class="grid grid-cols-2 xl:grid-cols-4 max-w-6xl gap-4">
+        <p class="mb-4 text-[#B55108] text-center"><i>click on any of the flyers below to see the project listing!</i></p>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 max-w-6xl gap-4">
            {#each listings as listing}
                 <div>
                     <!-- <div>{listing.project_name}</div> -->
