@@ -15,15 +15,16 @@
 
 <style>
   .wood-border {
-    position: fixed;
+    position: absolute;
     top: 0;
-    bottom: 0;
+    height: 100%;
     width: var(--width);
     background-image: url('/layoutleft.png');
     background-repeat: repeat-y;
     background-size: 100% auto;
     pointer-events: none;
-    z-index: 50;
+    z-index: -1;
+    image-rendering: pixelated;
   }
 
   .left {

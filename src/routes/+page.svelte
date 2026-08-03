@@ -1,6 +1,6 @@
 
 
-<div class="page-outline">
+<div class="page-outline" id="top">
 
     <img src="/landingtop.png" alt="" class="w-full object-cover object-center h-12 md:h-auto"/>
 
@@ -29,19 +29,36 @@
 
     </div>
 
-    <div class="flex flex-col justify-center items-center">
-        <div class="grid grid-cols-4 max-w-6xl gap-2">
+
+
+
+    <div>
+        
+    </div>
+
+
+
+    <div class="flex flex-col justify-center items-center pl-8 pr-8 py-12">
+        <p class="mb-4 text-[#B55108]"><i>click on any of the flyers below to see the project listing!</i></p>
+        <div class="grid grid-cols-2 xl:grid-cols-4 max-w-6xl gap-4">
            {#each listings as listing}
                 <div>
-                    <div>{listing.project_name}</div>
+                    <!-- <div>{listing.project_name}</div> -->
                     <a href="/listings/{listing.id}">
-                        <img src="{listing.project_image}" alt="" class="hover:rotate-1 glow transition"/>
+                        <img src="{listing.project_flyer}" alt="" class="hover:rotate-1 glow transition"/>
                     </a>
                 </div>
             {/each} 
         </div>
         
 
+    </div>
+
+
+    <div class="flex flex-col items-center justify-center mb-10 py-12">
+        <a href="#top" class="bg-[#F1EFE2] px-16 py-4 -rotate-1 shadow hover:scale-103 glow transition">
+            <p class="heavywei text-2xl">back to top</p>
+        </a>
     </div>
 
 
