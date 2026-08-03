@@ -2,8 +2,6 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import WoodBorders from '$lib/components/WoodBorders.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-
 	let { children } = $props();
 </script>
 
@@ -12,7 +10,6 @@
 <div class="page-wrapper">
 	<WoodBorders width={60} mobileWidth={20} />
 	{@render children()}
-	<Footer />
 </div>
 
 <style>

@@ -1,4 +1,8 @@
-
+<script lang="ts">
+    import Footer from '$lib/components/Footer.svelte';
+    let { data } = $props();
+    let listings = $derived(data.listings);
+</script>
 
 <div class="page-outline" id="top">
 
@@ -32,8 +36,18 @@
 
 
 
-    <div>
+    <div class="flex flex-col items-center justify-center">
+    
+        <a href="/docs/start">
+            <div class="bg-[#F1EFE2] px-16 py-4 -rotate-1 shadow hover:scale-103 glow transition">
+                <p>getting started</p>
+            </div>
+        </a>
+
         
+
+        
+
     </div>
 
 
@@ -61,14 +75,9 @@
         </a>
     </div>
 
+    <Footer />
+
 
 </div>
-
-
-<script>
-  let { data } = $props();
-  let listings = $derived(data.listings);
-</script>
-
 
 
