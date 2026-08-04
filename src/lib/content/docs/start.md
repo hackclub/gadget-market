@@ -37,7 +37,25 @@ And repeat! You can make as many projects as you want through Gadget Market, as 
 
 You can also earn additional prizes by trading. Info coming soon!
 
-Note that the minimum requirements for a project to be on the market is higher than usual - if you're just starting out, I'd recommend trying to get your project funded through [Stardance](https://stardance.hackclub.com) instead!
+Note that the minimum requirements for a project to be on the market is higher than usual - if you're just starting out, I'd recommend trying to get your project funded through [Stardance](https://stardance.hackclub.com) instead.
+
+## Project build grants
+
+There are three main tiers you can submit for:
+
+50 USD
+
+120 USD
+
+180 USD 
+
+If your project is super polished and requires a *little* more funding (ie: +20 USD), you can try to request it in your ship message. Depending on the project design and effort, @acon may approve of it. Note that Hack Club is a non-profit and we operate from limited funding, so make sure your project actually justifies the extra funding!
+
+Have a complex project that needs a lot more funding (ie: 350 USD), like the [Icepi Zero](https://github.com/cheyao/icepi-zero)? These can be approved on a case-by-case basis. Please ping @acon in #gadget-market with the project idea, as well as the parts you're planning to use that make up the cost! 
+
+## Shipping grants
+
+After your project gets listed onto Gadget Market, we'll give you a 30 USD grant for shipping your project to others. 
 
 ## Requirements
 
@@ -46,16 +64,27 @@ What are the minimums a project needs to be approved for the market?
 1. It needs to fully shipped.
 2. It needs to be functional - it must work as intended! 
 3. It needs to be polished.
-4. Art on the project needs to be original (ie: do not take images that do not belong to you from the internet). AI generated art is not allowed!
+4. It needs to be original - don't just copy things others have made! Art must be original too. (You are allowed to use Hack Club branding assets.)
 
+For project design requirements, read the [Design Requirements](/docs/design-requirements) page.
+
+For submitting a project design for a build grant, read the [How to Submit](/docs/submit) page.
+
+For listing a project on Gadget Market, read the [How to List](/docs/list) page.
 
 ## FAQ
 
-Is the only way to get a project on a market is to have a project to trade with? 
-- Yup. Get making!
+I already have some extra PCBs on me. Can I list them?
+- Yes! They still need to get approved, but you should read [How to List](/docs/list).
+
+I want someone else's project! Do I need a project of my own to trade with them?
+- Yup, you also need a project on the Market. Get making!
 
 Is this PCBs only?
 - All projects must include a PCB, but you are also free to add on additional things like 3D printed cases!
+
+Does the PCB need to ship assembled?
+- You have the option to ship it assembled, unassembled but with parts, or unassembled and without parts. Choose the appropriate option in your listing!
 
 ## Project Examples
 
