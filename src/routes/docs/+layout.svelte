@@ -5,7 +5,7 @@
 </script>
 
 <div class="docs-layout flex min-h-screen flex-col md:flex-row md:gap-16">
-	<nav class="w-full shrink-0 md:w-3xs">
+	<nav class="w-full shrink-0 md:sticky md:top-0 md:h-screen md:w-3xs md:self-start">
 		<div class="bg-[#2F2F2F] text-[#F1EFE2] h-full">
 			<div class="flex items-center justify-between p-4 md:p-0">
 				<a href="/" class="md:m-5">
@@ -76,7 +76,7 @@
 
 	<main class="docs-content">
 
-		<div class="bg-[#F1EFE2] px-6 py-4 mt-5 mr-6 pb-12 shadow md:px-16 md:mr-24">
+		<div class="bg-[#F1EFE2] px-6 py-4 mt-12 mx-6 md:ml-0 mr-6 pb-12 shadow md:px-16 md:mr-24 mb-12">
 			{@render children()}
 		</div>
 

@@ -34,7 +34,7 @@ marked.use({
 
 // Controls sidebar/listing order. Slugs not listed here are appended
 // alphabetically after these.
-const DOC_ORDER = ['start', 'funding', 'prizes'];
+const DOC_ORDER = ['start', 'design-requirements', 'submit', 'funding', 'prizes'];
 
 function orderIndex(slug) {
 	const i = DOC_ORDER.indexOf(slug);
