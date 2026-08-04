@@ -2,7 +2,10 @@
 
 Welcome! 
 
-Before you do anything, make sure you're in the [#gadget-market](https://hackclub.enterprise.slack.com/archives/C0AJQ0HBC12) channel on the Hack Club Slack - that's where all updates will be posted! You can also ask questions in the channel :D
+Before you do anything, make sure you're in these channels on the Hack Club slack:
+- [#gadget-market](https://hackclub.enterprise.slack.com/archives/C0AJQ0HBC12) - the main channel for talking, sharing progress, questions, and everything else!
+- [#gadget-market-ships]() - submit your finished project design for review, to get a build grant
+- [#gadget-market-listings]() - submit your built project for review, to list it onto the Market and to get a shipping grant
 
 **Here's how Gadget Market works:**
 
@@ -41,13 +44,13 @@ Note that the minimum requirements for a project to be on the market is higher t
 
 ## Project build grants
 
-There are three main tiers you can submit for:
+There are three main tiers you can submit for, depending on the complexity of your project:
 
-50 USD
+Up to 50 USD - Simple projects! [EXAMPLES]
 
-120 USD
+Up to 120 USD - Medium projects! [EXAMPLES]
 
-180 USD 
+Up to 180 USD - Complex projects! [EXAMPLES]
 
 If your project is super polished and requires a *little* more funding (ie: +20 USD), you can try to request it in your ship message. Depending on the project design and effort, @acon may approve of it. Note that Hack Club is a non-profit and we operate from limited funding, so make sure your project actually justifies the extra funding!
 
@@ -56,6 +59,8 @@ Have a complex project that needs a lot more funding (ie: 350 USD), like the [Ic
 ## Shipping grants
 
 After your project gets listed onto Gadget Market, we'll give you a 30 USD grant for shipping your project to others. 
+
+This should be enough for shipping out your project 3 times!
 
 ## Requirements
 
@@ -75,7 +80,7 @@ For listing a project on Gadget Market, read the [How to List](/docs/list) page.
 ## FAQ
 
 I already have some extra PCBs on me. Can I list them?
-- Yes! They still need to get approved, but you should read [How to List](/docs/list).
+- Yes! But they still need to get approved, so you should read [How to List](/docs/list).
 
 I want someone else's project! Do I need a project of my own to trade with them?
 - Yup, you also need a project on the Market. Get making!
@@ -85,6 +90,4 @@ Is this PCBs only?
 
 Does the PCB need to ship assembled?
 - You have the option to ship it assembled, unassembled but with parts, or unassembled and without parts. Choose the appropriate option in your listing!
-
-## Project Examples
 

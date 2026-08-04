@@ -24,6 +24,7 @@ In your message, make sure you include:
 - GitHub repo link
 - Screenshot of your schematic, PCB, and 3d view of the PCB
 - Description explaining what your project does!
+- Which tier of funding you're submitting for (Simple, Medium, Complex, or more)
 - Which method of time tracking you used
 
 
