@@ -18,7 +18,7 @@
 				<p>Hack Club is a 501(c)(3) nonprofit and network of 100k+ technical high schoolers. We believe you learn best by building, 
 				so we're creating community and providing grants so you can make awesome projects. 
 				In the past few years, we've sent 30 teen hackers hiking the Pacific Crest Trail, 
-				hosted a hackathon for the worst ideas, and ran the largest hardware hackathon at GitHub HQ.</p>
+				hosted a hackathon for the worst ideas, and ran the largest hardware hackathon twice.</p>
 
 				<p>Made with ♥︎ by teenagers, for teenagers at Hack Club</p>
 			</div>

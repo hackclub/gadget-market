@@ -11,6 +11,8 @@
 
 <div class="page-outline" id="top">
 
+    <a href="https://hackclub.com/"><img style="position: absolute; top: 110px; left: -2px; border: 0; width: 256px; z-index: 999;" class="fade-in-up fade-delay-0 hidden md:block" src="https://assets.hackclub.com/banners/2026.svg" alt="Hack Club"/></a>
+
     <img src="/landingtop.webp" alt="" class="w-full object-cover object-center h-12 md:h-auto animate-in-top"/>
 
     <div class="flex flex-col items-center justify-center">
@@ -22,7 +24,7 @@
 
             <div class="space-y-6 text-center py-6 text-lg">
 
-                <p>This is a place for teens around the world to trade PCBs!
+                <p>This is a place for teenagers around the world to trade PCBs!
                 Join <a href="https://hackclub.enterprise.slack.com/archives/C0AJQ0HBC12" class="text-[#4F74ED] link">#gadget-market</a> in Hack Club Slack for updates + questions! </p>
 
                 <p>Want to get funding for a project, and then list it on the Market? 
@@ -43,17 +45,17 @@
 
 
 
-    <div class="fade-in-up fade-delay-2 flex flex-wrap space-x-8 items-center justify-center">
+    <div class="fade-in-up fade-delay-2 flex flex-wrap gap-8 items-center justify-center">
 
-        <div class="flex items-center justify-center space-x-2 mb-16 md:space-x-4">
-            <a href="/docs/start" class="-translate-y-8">
-                <img src="/flyer-getting-started.png" alt="Getting Started" class="w-24 -rotate-2 glow transition hover:scale-102 md:w-52"/>
+        <div class="flex w-fit items-center justify-center space-x-2 mb-16 md:space-x-4">
+            <a href="/docs/start" class="-translate-y-8 shrink-0">
+                <img src="/flyer-getting-started.png" alt="Getting Started" class="w-40 -rotate-2 glow transition hover:scale-102 md:w-52"/>
             </a>
-            <a href="/docs/design-requirements" class="-ml-4 translate-y-10">
-                <img src="/flyer-design-reqs.png" alt="Project Design Requirements" class="w-24 rotate-1 glow transition hover:scale-102 md:w-52"/>
+            <a href="/docs/design-requirements" class="-ml-4 translate-y-10 shrink-0">
+                <img src="/flyer-design-reqs.png" alt="Project Design Requirements" class="w-40 rotate-1 glow transition hover:scale-102 md:w-52"/>
             </a>
-            <a href="/docs/list" class="-ml-4 -translate-y-6">
-                <img src="/flyers-list.png" alt="How to List" class="w-24 glow transition hover:scale-102 md:w-52"/>
+            <a href="/docs/list" class="-ml-4 -translate-y-6 shrink-0">
+                <img src="/flyers-list.png" alt="How to List" class="w-40 glow transition hover:scale-102 md:w-52"/>
             </a>
         </div>
 
@@ -140,6 +142,10 @@
     .fade-in-up {
         opacity: 0;
         animation: fade-in-up 500ms ease-out forwards;
+    }
+
+    .fade-delay-0 {
+        animation-delay: 750ms;
     }
 
     .fade-delay-1 {
