@@ -6,7 +6,7 @@ You need two things before listing a project on Gadget Market:
 2. project flyer 
 
 
-Didn't get your project funded originally through Gadget Market, but still want to trade with others? There is a separate flow for that, please read the [Existing PCBS](/docs/skip) page!
+**Didn't get your project funded originally through Gadget Market, but still want to trade with others?** There is a separate flow for that, please read the [Existing PCBs](/docs/skip) page!
 
 ## Built project
 
