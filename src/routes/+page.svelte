@@ -11,7 +11,7 @@
 
 <div class="page-outline" id="top">
 
-    <img src="/landingtop.png" alt="" class="w-full object-cover object-center h-12 md:h-auto"/>
+    <img src="/landingtop.png" alt="" class="w-full object-cover object-center h-12 md:h-auto animate-in-top"/>
 
     <div class="flex flex-col items-center justify-center">
 
@@ -104,5 +104,30 @@
 
 
 </div>
+
+<style>
+    .animate-in-top {
+        opacity: 0;
+        animation: slide-in-top 350ms ease-out 700ms forwards;
+    }
+
+    @keyframes slide-in-top {
+        from {
+            opacity: 0;
+            translate: 0 -100%;
+        }
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .animate-in-top {
+            animation: none;
+            opacity: 1;
+        }
+    }
+</style>
 
 

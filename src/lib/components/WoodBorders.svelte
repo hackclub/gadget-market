@@ -25,20 +25,44 @@
     pointer-events: none;
     z-index: -1;
     image-rendering: pixelated;
+    opacity: 0;
+    animation: slide-in-x 350ms ease-out forwards;
   }
 
   .left {
     left: 0;
+    --from-x: -100%;
+    animation-delay: 100ms;
   }
 
   .right {
     right: 0;
     transform: scaleX(-1);
+    --from-x: 100%;
+    animation-delay: 400ms;
+  }
+
+  @keyframes slide-in-x {
+    from {
+      opacity: 0;
+      translate: var(--from-x) 0;
+    }
+    to {
+      opacity: 1;
+      translate: 0 0;
+    }
   }
 
   @media (max-width: 768px) {
     .wood-border {
       width: var(--mobile-width);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .wood-border {
+      animation: none;
+      opacity: 1;
     }
   }
 </style>
