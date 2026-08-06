@@ -16,6 +16,5 @@
 	.page-wrapper {
 		position: relative;
 		min-height: 100vh;
-		overflow-x: hidden;
 	}
 </style>
