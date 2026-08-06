@@ -30,6 +30,7 @@
 	article :global(p) {
 		margin: 1rem 0;
 		line-height: 1.6;
+		font-family: 'Archivo', sans-serif;
 	}
 
 	article :global(ul) {
@@ -46,6 +47,7 @@
 
 	article :global(li) {
 		margin: 0.25rem 0;
+		font-family: 'Archivo', sans-serif;
 	}
 
 	article :global(a) {

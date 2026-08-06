@@ -2,6 +2,11 @@
     import Footer from '$lib/components/Footer.svelte';
     let { data } = $props();
     let listings = $derived(data.listings);
+    let gridItems = $derived(
+        listings.length < 4
+            ? [...listings, ...Array(4 - listings.length).fill(null)]
+            : listings
+    );
 </script>
 
 <div class="page-outline" id="top">
@@ -17,14 +22,16 @@
 
             <div class="space-y-6 text-center py-6 text-lg">
 
-                <p>This is a place for teens around the world to trade PCB’s!
+                <p>This is a place for teens around the world to trade PCBs!
                 Join <a href="https://hackclub.enterprise.slack.com/archives/C0AJQ0HBC12" class="text-[#4F74ED] link">#gadget-market</a> in Hack Club Slack for updates + questions! </p>
 
-                <p>Want to list your own PCB on the market? Check out [instructions], 
-                    then submit it! When your PCB gets approved, 
-                    you’ll get a 30 usd grant card to pay for shipping for your trades :D </p>
+                <p>Want to get funding for a project, and then list it on the Market? 
+                    We give grants up to 210 USD - go to <a href="/docs/start" class="link text-[#4F74ED]">Getting Started</a>! 
+                    </p>
 
-                <p>You can also earn prizes when you do a certain amount of trades! Check out [instructions] for prizes. Have fun!</p>
+                <p>Have PCBs you want to list on the market already? 
+                    Check out <a href="/docs/skip" class="link text-[#4F74ED]">here</a> for instructions! 
+                    We also give 30 USD shipping grants + prizes :D</p>
 
             </div>
 
@@ -36,13 +43,28 @@
 
 
 
-    <div class="flex flex-col items-center justify-center">
+    <div class="flex flex-wrap space-x-8 items-center justify-center">
     
         <a href="/docs/start">
             <div class="bg-[#F1EFE2] px-16 py-4 -rotate-1 shadow hover:scale-103 glow transition">
                 <p>getting started</p>
             </div>
         </a>
+
+        <div class="flex flex-col items-center justify-center group">
+
+            <p class="text-[#B55108] pb-1 opacity-50 group-hover:opacity-100 transition"><i>organizers of this program!</i></p>
+
+            <div class="flex items-end">
+                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-acon.png" alt="@acon" class="max-w-25 -rotate-2 z-10 glow"/></a>
+                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-mpk.png" alt="@mpk" class="max-w-25 rotate-1 z-2 glow"/></a>
+                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-sophia.png" alt="@sophia" class="max-w-25 -rotate-3 z-30 glow"/></a>
+            </div>
+
+        </div>
+
+
+        
 
         
 
@@ -55,14 +77,17 @@
     <div class="flex flex-col justify-center items-center pl-8 pr-8 py-12">
         <p class="mb-4 text-[#B55108] text-center"><i>click on any of the flyers below to see the project listing!</i></p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 max-w-6xl gap-4">
-           {#each listings as listing}
+           {#each gridItems as listing}
                 <div>
-                    <!-- <div>{listing.project_name}</div> -->
-                    <a href="/listings/{listing.id}">
-                        <img src="{listing.project_flyer}" alt="" class="hover:rotate-1 glow transition"/>
-                    </a>
+                    {#if listing}
+                        <a href="/listings/{listing.id}">
+                            <img src="{listing.project_flyer}" alt="" class="hover:rotate-1 glow transition"/>
+                        </a>
+                    {:else}
+                        <img src="/project-placeholder.png" alt="" />
+                    {/if}
                 </div>
-            {/each} 
+            {/each}
         </div>
         
 

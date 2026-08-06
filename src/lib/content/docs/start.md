@@ -40,21 +40,27 @@ And repeat! You can make as many projects as you want through Gadget Market, as 
 
 You can also earn additional prizes by trading. Info coming soon!
 
-Note that the minimum requirements for a project to be on the market is higher than usual - if you're just starting out, I'd recommend trying to get your project funded through [Stardance](https://stardance.hackclub.com) instead.
+**Note that the minimum requirements for a project to be on the market is higher than usual** - if you're just starting out, I'd recommend trying to get your project funded through [Stardance](https://stardance.hackclub.com) instead.
 
 ## Project build grants
 
 There are three main tiers you can submit for, depending on the complexity of your project:
 
-Up to 50 USD - Simple projects! [EXAMPLES]
+### Up to 50 USD - Simple projects!
 
-Up to 120 USD - Medium projects! [EXAMPLES]
+### Up to 120 USD - Medium projects!
 
-Up to 180 USD - Complex projects! [EXAMPLES]
+### Up to 210 USD - Complex projects!
 
-If your project is super polished and requires a *little* more funding (ie: +20 USD), you can try to request it in your ship message. Depending on the project design and effort, @acon may approve of it. Note that Hack Club is a non-profit and we operate from limited funding, so make sure your project actually justifies the extra funding!
+These projects typically involve complex routing, *many* components, and a low margin for error. Examples:
 
-Have a complex project that needs a lot more funding (ie: 350 USD), like the [Icepi Zero](https://github.com/cheyao/icepi-zero)? These can be approved on a case-by-case basis. Please ping @acon in #gadget-market with the project idea, as well as the parts you're planning to use that make up the cost! 
+- [Cheetah MX4 Mini](https://github.com/KaiPereira/Cheetah-MX4-Mini) - 3D printer motherboard
+- [CH32 Logic Analyzer](https://github.com/cheyao/ch32-logic-analyzer) - 200Msps 16ch logic analyzer + 20Msps oscilloscope
+- [AngstromIO Devboard](https://github.com/Dieu-de-l-elec/AngstromIO-devboard) - one of the smallest devboards
+
+**If your project is super polished and requires a *little* more funding** (ie: +20 USD), you can try to request it in your ship message. Depending on the project design and effort, @acon may approve of it. Note that Hack Club is a non-profit and we operate from limited funding, so make sure your project actually justifies the extra funding!
+
+**Have a complex project that needs a *lot* more funding** (ie: 350 USD), like the [Icepi Zero](https://github.com/cheyao/icepi-zero)? These can be approved on a case-by-case basis. Please ping @acon in #gadget-market with the project idea, as well as the parts you're planning to use that make up the cost! 
 
 ## Shipping grants
 
@@ -71,7 +77,7 @@ What are the minimums a project needs to be approved for the market?
 3. It needs to be polished.
 4. It needs to be original - don't just copy things others have made! Art must be original too. (You are allowed to use Hack Club branding assets.)
 
-For project design requirements, read the [Design Requirements](/docs/design-requirements) page.
+For project design requirements, read the [Project Requirements](/docs/design-requirements) page.
 
 For submitting a project design for a build grant, read the [How to Submit](/docs/submit) page.
 
@@ -79,15 +85,19 @@ For listing a project on Gadget Market, read the [How to List](/docs/list) page.
 
 ## FAQ
 
-I already have some extra PCBs on me. Can I list them?
-- Yes! But they still need to get approved, so you should read [How to List](/docs/list).
+**I already have some extra PCBs on me. Can I list them?**
 
-I want someone else's project! Do I need a project of my own to trade with them?
-- Yup, you also need a project on the Market. Get making!
+Yes! But they still need to get approved, so you should read [Existing PCBs](/docs/skip).
 
-Is this PCBs only?
-- All projects must include a PCB, but you are also free to add on additional things like 3D printed cases!
+**I want someone else's project! Do I need a project of my own to trade with them?**
 
-Does the PCB need to ship assembled?
-- You have the option to ship it assembled, unassembled but with parts, or unassembled and without parts. Choose the appropriate option in your listing!
+Yup, you also need a project on the Market. Get making!
+
+**Is this PCBs only?**
+
+All projects must include a PCB, but you are also free to add on additional things like 3D printed cases!
+
+**Does the PCB need to ship assembled?**
+
+You have the option to ship it assembled, unassembled but with parts, or unassembled and without parts. Choose the appropriate option in your listing!
 
