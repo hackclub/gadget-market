@@ -19,7 +19,7 @@
     top: 0;
     height: 100%;
     width: var(--width);
-    background-image: url('/layoutleft.png');
+    background-image: url('/layoutleft.webp');
     background-repeat: repeat-y;
     background-size: 100% auto;
     pointer-events: none;
