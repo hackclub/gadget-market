@@ -4,8 +4,8 @@ Welcome!
 
 Before you do anything, make sure you're in these channels on the Hack Club slack:
 - [#gadget-market](https://hackclub.enterprise.slack.com/archives/C0AJQ0HBC12) - the main channel for talking, sharing progress, questions, and everything else!
-- [#gadget-market-ships]() - submit your finished project design for review, to get a build grant
-- [#gadget-market-listings]() - submit your built project for review, to list it onto the Market and to get a shipping grant
+- [#gadget-market-ships](https://hackclub.enterprise.slack.com/archives/C0BNTG07VU0) - submit your finished project design for review, to get a build grant
+- [#gadget-market-listings](https://hackclub.enterprise.slack.com/archives/C0BMWLH69E1) - submit your built project for review, to list it onto the Market and to get a shipping grant
 
 **Here's how Gadget Market works:**
 

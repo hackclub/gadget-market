@@ -6,7 +6,7 @@ Make a GitHub Repo! Make sure to have frequent commits of your work so that we c
 
 ## Time tracking
 
-You will also need to track the amount of you've spent for your project. *This will not be used to determine whether you get approved or not - approvals are quality based.* This will be used to (1) see where people are struggling / doing well on their projects so we can make better programs, and (2) check for fraud (ie: if someone were to copy another person's project).
+You will also need to track the amount of time you've spent for your project. *This will not be used to determine whether you get approved or not - approvals are quality based.* This will be used to (1) see where people are struggling / doing well on their projects so we can make better programs, and (2) check for fraud (ie: if someone were to copy another person's project).
 
 **Time tracking options:**
 - **Journaling**
@@ -17,6 +17,7 @@ You will also need to track the amount of you've spent for your project. *This w
         - what you did + learnt
         - at *least* 1 screenshot!
     - Add up the total amount of hours you worked on it and put it on the top before submitting for review
+    - check out [the Codex](https://codex.hackclub.com/shipping/journaling) for additional reference.
 - more options coming soon maybe :"D
 
 ## How do I know if my journal is good enough?
@@ -32,7 +33,6 @@ We are looking for a couple of things when reviewing:
 **PROJECT APPROVAL IS QUALITY BASED. HOURS ARE NOT TAKEN INTO ACCOUNT. DO NOT INFLATE YOUR HOURS!!** 
 
 We are less likely to approve a project if it seems like the hours are inflated, it just gives us more work to verify what is real and not.
-
 
 ## Quality
 
