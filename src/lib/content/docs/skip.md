@@ -2,9 +2,27 @@
 
 Have a PCB you've already made, that you want to put onto the market?
 
+You'll need three things before putting it on the market:
+
+1. Project approval
+2. Shipping grant
+3. Project flyer
+
 ## Project approval
 
 Your project needs to be approved first. 
+
+To get it approved, post it in [#gadget-market-ships](https://hackclub.enterprise.slack.com/archives/C0BNTG07VU0)!
+
+At the top of your message, write: This is an existing project, originally submitted and funded through [PROGRAM NAME]. 
+
+In the message, include:
+- GitHub repo link
+- Video demo link
+- IRL images of your project, as well as PCB screenshots
+- Description explaining what your project does!
+
+An organizer will respond with whether it's approved or not. If approved, you can move onto earning a shipping grant.
 
 ## Things you can do to get a shipping grant
 
@@ -31,3 +49,11 @@ Your project needs to be approved first.
 
 - Make a (probably static) site for your project!
 - Showcase it! Market it! Like a magazine page but site format. Basically a project page of sorts.
+
+**Ship what you made for your shipping grant in [#gadget-market-listings]!**
+
+More info coming soon.
+
+## Flyer
+
+For instructions, read [How to List - Flyers](http://localhost:5173/docs/list#flyer)!
