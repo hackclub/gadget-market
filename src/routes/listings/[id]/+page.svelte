@@ -4,7 +4,7 @@
 </script>
 
 <div class="page-outline p-5 min-h-screen flex flex-col">
-    <a href="/"><img src="/shopback.png" alt="back to home" class="m-5 max-w-30 glow hover:scale-102 transition"/></a>
+    <a href="/"><img src="/shopback.webp" alt="back to home" class="m-5 max-w-30 glow hover:scale-102 transition"/></a>
 
 
     <div class="flex flex-col justify-center items-center flex-1">

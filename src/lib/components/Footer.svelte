@@ -7,7 +7,7 @@
 		<div class="mx-auto flex max-w-4xl flex-col items-start gap-8 text-left md:flex-row md:gap-16">
 
 			<div class="flex flex-col items-start gap-4 min-w-25">
-				<img src="/gadget-market-logo.png" alt="Gadget Market" class="w-24 md:w-44" />
+				<img src="/gadget-market-logo.webp" alt="Gadget Market" class="w-24 md:w-44" />
 				<nav class="flex flex-col gap-1 font-bold opacity-50">
 					<a href="https://hackclub.com" target="_blank" rel="noopener noreferrer" class="link">hack club</a>
 					<a href="https://slack.hackclub.com" target="_blank" rel="noopener noreferrer" class="link">slack</a>

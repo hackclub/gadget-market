@@ -11,27 +11,27 @@ Before you do anything, make sure you're in these channels on the Hack Club slac
 
 <div class="instructions-grid">
 	<figure>
-		<img src="/market-instructions1.png" alt="step 1" />
+		<img src="/market-instructions1.webp" alt="step 1" />
 		<figcaption>Design your hardware project!</figcaption>
 	</figure>
 	<figure>
-		<img src="/market-instructions2.png" alt="step 2" />
+		<img src="/market-instructions2.webp" alt="step 2" />
 		<figcaption>Submit it - if approved, we'll give you a grant for buying PCBs/parts!</figcaption>
 	</figure>
 	<figure>
-		<img src="/market-instructions3.png" alt="step 3" />
+		<img src="/market-instructions3.webp" alt="step 3" />
 		<figcaption>Get it built IRL and test it out by writing firmware/code!</figcaption>
 	</figure>
 	<figure>
-		<img src="/market-instructions4.png" alt="step 4" />
+		<img src="/market-instructions4.webp" alt="step 4" />
 		<figcaption>If it works, list the extra PCBs you have on the Market! We'll give you shipping grant.</figcaption>
 	</figure>
 	<figure>
-		<img src="/market-instructions5.png" alt="step 5" />
+		<img src="/market-instructions5.webp" alt="step 5" />
 		<figcaption>When you see another Market project you want to trade with, DM the other person!</figcaption>
 	</figure>
 	<figure>
-		<img src="/market-instructions6.png" alt="step 6" />
+		<img src="/market-instructions6.webp" alt="step 6" />
 		<figcaption>If accepted, trade your projects by mailing them to each other!</figcaption>
 	</figure>
 </div>

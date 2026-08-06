@@ -36,7 +36,7 @@ In your message, make sure you include:
 
 [Here's an example of a ship message by @Cyao:](https://hackclub.slack.com/archives/C0BNTG07VU0/p1785947719380689)
 
-<img src="/ship-example.png" alt="ship example" style="max-width: 800px;" />
+<img src="/ship-example.webp" alt="ship example" style="max-width: 800px;" />
 
 
 An organizer will respond in thread in the next 1-5 business days. 

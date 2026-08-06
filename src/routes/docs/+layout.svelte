@@ -10,7 +10,7 @@
 			<div class="flex items-center justify-between p-4 md:p-0">
 				<a href="/" class="md:m-5">
 					<img
-						src="/shopback.png"
+						src="/shopback.webp"
 						alt="back to home"
 						class="max-w-20 glow transition hover:scale-102 md:max-w-30"
 					/>
@@ -73,7 +73,7 @@
 			</div>
 
 			<img
-				src="/gadget-market-logo.png"
+				src="/gadget-market-logo.webp"
 				alt="Gadget Market"
 				class="mt-auto hidden w-full px-6 py-4 pb-6 md:block"
 			/>

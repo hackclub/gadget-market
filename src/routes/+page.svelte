@@ -11,7 +11,7 @@
 
 <div class="page-outline" id="top">
 
-    <img src="/landingtop.png" alt="" class="w-full object-cover object-center h-12 md:h-auto"/>
+    <img src="/landingtop.webp" alt="" class="w-full object-cover object-center h-12 md:h-auto animate-in-top"/>
 
     <div class="flex flex-col items-center justify-center">
 
@@ -62,9 +62,9 @@
             <p class="text-[#B55108] pb-1 opacity-50 group-hover:opacity-100 transition"><i>organizers of this program!</i></p>
 
             <div class="flex items-end">
-                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-acon.png" alt="@acon" class="max-w-25 -rotate-2 z-10 glow"/></a>
-                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-mpk.png" alt="@mpk" class="max-w-25 rotate-1 z-2 glow"/></a>
-                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-sophia.png" alt="@sophia" class="max-w-25 -rotate-3 z-30 glow"/></a>
+                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-acon.webp" alt="@acon" class="max-w-25 -rotate-2 z-10 glow"/></a>
+                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-mpk.webp" alt="@mpk" class="max-w-25 rotate-1 z-2 glow"/></a>
+                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-sophia.webp" alt="@sophia" class="max-w-25 -rotate-3 z-30 glow"/></a>
             </div>
 
         </div>
@@ -90,7 +90,7 @@
                             <img src="{listing.project_flyer}" alt="" class="hover:rotate-1 glow transition"/>
                         </a>
                     {:else}
-                        <img src="/project-placeholder.png" alt="" />
+                        <img src="/project-placeholder.webp" alt="" />
                     {/if}
                 </div>
             {/each}
@@ -110,5 +110,30 @@
 
 
 </div>
+
+<style>
+    .animate-in-top {
+        opacity: 0;
+        animation: slide-in-top 350ms ease-out 700ms forwards;
+    }
+
+    @keyframes slide-in-top {
+        from {
+            opacity: 0;
+            translate: 0 -100%;
+        }
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .animate-in-top {
+            animation: none;
+            opacity: 1;
+        }
+    }
+</style>
 
 
