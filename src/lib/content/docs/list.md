@@ -24,7 +24,7 @@ It should be published on YouTube - you are free to make it either unlisted or p
 
 You must make a flyer for your project! This is the poster that's posted on the landing of Gadget Market. 
 
-Dimensions: 300 x 400px
+Dimensions: 600 x 800px - please make sure your file is this exactly!
 
 I'd recommend making it in Figma!
 

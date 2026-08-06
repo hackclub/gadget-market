@@ -117,3 +117,7 @@ All projects must include a PCB, but you are also free to add on additional thin
 
 You have the option to ship it assembled, unassembled but with parts, or unassembled and without parts. Choose the appropriate option in your listing!
 
+**Does [xyz project idea] count as a gadget?**
+
+The term "gadget" here is used quite loosely - but if you're unsure, feel free to ask in [#gadget-market](https://hackclub.enterprise.slack.com/archives/C0AJQ0HBC12)! 
+

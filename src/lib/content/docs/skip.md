@@ -28,7 +28,9 @@ An organizer will respond with whether it's approved or not. If approved, you ca
 
 *Note: your project build must be approved before receiving the grant.*
 
-**Write code for your hardware project!**
+---
+
+### Write code for your hardware project!
 
 * Must be hackatime tracked
 * Grants are quality based: the longer the interaction with your program, the more the grant will be (more info on exact numbers later) 
@@ -37,7 +39,9 @@ An organizer will respond with whether it's approved or not. If approved, you ca
 * Write code for your own hardware project or someone else's that you physically have on you!
 * You'll need to take a video demo of what you made running on the hardware
 
-**Build your hardware project**
+---
+
+### Build your hardware project!
 
 * NOTE: your project cannot be submitted to a program that is currently running
     * ie: you can submit a Highway project you never built, but not a Stardance hardware project
@@ -45,12 +49,16 @@ An organizer will respond with whether it's approved or not. If approved, you ca
 * journal your building time!
 * you must submit a demo video to prove that it works 
 
-**Make a site for your project**
+---
+
+### Make a site for your project!
 
 - Make a (probably static) site for your project!
 - Showcase it! Market it! Like a magazine page but site format. Basically a project page of sorts.
 
-**Ship what you made for your shipping grant in [#gadget-market-listings]!**
+---
+
+**After you're done one of the three, ship what you did in [#gadget-market-listings](https://hackclub.enterprise.slack.com/archives/C0BMWLH69E1)!**
 
 More info coming soon.
 

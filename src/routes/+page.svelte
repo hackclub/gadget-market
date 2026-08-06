@@ -27,11 +27,11 @@
                 <p>This is a place for teenagers around the world to trade PCBs!
                 Join <a href="https://hackclub.enterprise.slack.com/archives/C0AJQ0HBC12" class="text-[#4F74ED] link">#gadget-market</a> in Hack Club Slack for updates + questions! </p>
 
-                <p>Want to get funding for a project, and then list it on the Market? 
-                    We give grants up to 210 USD - go to <a href="/docs/start" class="link text-[#4F74ED]">Getting Started</a>! 
+                <p>Make a gadget, then put it onto this market! 
+                    We give grants up to 210 USD for you to build your project - go to <a href="/docs/start" class="link text-[#4F74ED]">Getting Started</a>! 
                     </p>
 
-                <p>Have PCBs you want to list on the market already? 
+                <p>Have PCBs to list on the market already? 
                     Check out <a href="/docs/skip" class="link text-[#4F74ED]">here</a> for instructions! 
                     We also give 30 USD shipping grants + prizes :D</p>
 
