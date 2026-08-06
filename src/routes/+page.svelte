@@ -45,11 +45,17 @@
 
     <div class="flex flex-wrap space-x-8 items-center justify-center">
     
-        <a href="/docs/start">
-            <div class="bg-[#F1EFE2] px-16 py-4 -rotate-1 shadow hover:scale-103 glow transition">
-                <p>getting started</p>
-            </div>
-        </a>
+        <div class="flex items-center">
+            <a href="/docs/start" class="z-10">
+                <img src="/flyer-getting-started.png" alt="Getting Started" class="w-36 -rotate-2 glow transition hover:scale-105 md:w-52"/>
+            </a>
+            <a href="/docs/design-requirements" class="z-20 -ml-4 translate-y-6">
+                <img src="/flyer-design-reqs.png" alt="Project Design Requirements" class="w-36 rotate-1 glow transition hover:scale-105 md:w-52"/>
+            </a>
+            <a href="/docs/list" class="z-30 -ml-4 -translate-y-6">
+                <img src="/flyers-list.png" alt="How to List Your Projects on the Market" class="w-36 -rotate-3 glow transition hover:scale-105 md:w-52"/>
+            </a>
+        </div>
 
         <div class="flex flex-col items-center justify-center group">
 

@@ -46,9 +46,17 @@ You can also earn additional prizes by trading. Info coming soon!
 
 There are three main tiers you can submit for, depending on the complexity of your project:
 
+---
+
 ### Up to 50 USD - Simple projects!
 
+These projects are typically don't require many parts.
+
+---
+
 ### Up to 120 USD - Medium projects!
+
+---
 
 ### Up to 210 USD - Complex projects!
 
@@ -57,6 +65,8 @@ These projects typically involve complex routing, *many* components, and a low m
 - [Cheetah MX4 Mini](https://github.com/KaiPereira/Cheetah-MX4-Mini) - 3D printer motherboard
 - [CH32 Logic Analyzer](https://github.com/cheyao/ch32-logic-analyzer) - 200Msps 16ch logic analyzer + 20Msps oscilloscope
 - [AngstromIO Devboard](https://github.com/Dieu-de-l-elec/AngstromIO-devboard) - one of the smallest devboards
+
+---
 
 **If your project is super polished and requires a *little* more funding** (ie: +20 USD), you can try to request it in your ship message. Depending on the project design and effort, @acon may approve of it. Note that Hack Club is a non-profit and we operate from limited funding, so make sure your project actually justifies the extra funding!
 
