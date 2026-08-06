@@ -45,15 +45,15 @@
 
     <div class="flex flex-wrap space-x-8 items-center justify-center">
     
-        <div class="flex items-center">
-            <a href="/docs/start" class="z-10">
-                <img src="/flyer-getting-started.png" alt="Getting Started" class="w-36 -rotate-2 glow transition hover:scale-105 md:w-52"/>
+        <div class="flex items-center justify-center space-x-2 mb-16 md:space-x-4">
+            <a href="/docs/start" class="-translate-y-8">
+                <img src="/flyer-getting-started.png" alt="Getting Started" class="w-24 -rotate-2 glow transition hover:scale-102 md:w-52"/>
             </a>
-            <a href="/docs/design-requirements" class="z-20 -ml-4 translate-y-6">
-                <img src="/flyer-design-reqs.png" alt="Project Design Requirements" class="w-36 rotate-1 glow transition hover:scale-105 md:w-52"/>
+            <a href="/docs/design-requirements" class="-ml-4 translate-y-10">
+                <img src="/flyer-design-reqs.png" alt="Project Design Requirements" class="w-24 rotate-1 glow transition hover:scale-102 md:w-52"/>
             </a>
-            <a href="/docs/list" class="z-30 -ml-4 -translate-y-6">
-                <img src="/flyers-list.png" alt="How to List Your Projects on the Market" class="w-36 -rotate-3 glow transition hover:scale-105 md:w-52"/>
+            <a href="/docs/list" class="-ml-4 -translate-y-6">
+                <img src="/flyers-list.png" alt="How to List" class="w-24 glow transition hover:scale-102 md:w-52"/>
             </a>
         </div>
 

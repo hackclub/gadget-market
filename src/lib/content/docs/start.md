@@ -50,11 +50,15 @@ There are three main tiers you can submit for, depending on the complexity of yo
 
 ### Up to 50 USD - Simple projects!
 
-These projects are typically don't require many parts.
+These projects are typically don't require many parts, and can typically be assembled by hand.
+
+Example: capacitive touch keychain with backlit LEDs.
 
 ---
 
 ### Up to 120 USD - Medium projects!
+
+Most keyboards / devboards would fall under this catagory! As well as most other gadgets.
 
 ---
 
@@ -77,6 +81,8 @@ These projects typically involve complex routing, *many* components, and a low m
 After your project gets listed onto Gadget Market, we'll give you a 30 USD grant for shipping your project to others. 
 
 This should be enough for shipping out your project 3 times!
+
+If you need more than 30 USD (want to ship out more than 3 PCBs? need to ship it in a larger box?), you can get additional funding through methods [here](/docs/skip). (Note that building your project will not count for additional funding.)
 
 ## Requirements
 

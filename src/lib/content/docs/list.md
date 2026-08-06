@@ -12,6 +12,14 @@ Didn't get your project funded originally through Gadget Market, but still want 
 
 Your project needs to be physically working in order to be put on the market!
 
+**You also need a demo video for your project.** This is what others will be watching when deciding whether they want to trade with you!
+
+It should be <2min, and showcase the project working. You are free to add voiceover if you want. Explain your project and show it off!
+
+It should be published on YouTube - you are free to make it either unlisted or public!
+
+**Put pictures of the built project in the README.md of your repo! Remember to also journal hours spent building it.**
+
 ## Flyer 
 
 You must make a flyer for your project! This is the poster that's posted on the landing of Gadget Market. 
@@ -32,3 +40,16 @@ Additional resources:
 - [photoroom background remover](https://www.photoroom.com/tools/background-remover) - actually good free background remover
 - [lospec color palettes](https://lospec.com/palette-list) - many colors that go well together
 - [game ui database](https://www.gameuidatabase.com/) - collection of game ui design for inspo
+
+## Where do I put it?
+
+After you're done making the demo video and flyer, make a post in [#gadget-market-listings](https://hackclub.enterprise.slack.com/archives/C0BMWLH69E1)! 
+
+In your message, make sure you include:
+- GitHub repo link
+- **YouTube demo link**
+- **IRL photos of your project!**
+- Description explaining what your project does!
+- **Project flyer!**
+
+Examples coming soon!
