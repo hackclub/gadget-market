@@ -2,7 +2,7 @@
 
 ## Before starting your project
 
-Make a GitHub Repo! Make sure to have frequent commits of your work so that we can verify it's your own.
+Make a GitHub repository! Make sure to have frequent commits of your work so that we can verify it's your own.
 
 ## Time tracking
 
@@ -17,7 +17,8 @@ You will also need to track the amount of time you've spent for your project. *T
         - what you did + learnt
         - at *least* 1 screenshot!
     - Add up the total amount of hours you worked on it and put it on the top before submitting for review
-    - check out [the Codex](https://codex.hackclub.com/shipping/journaling) for additional reference.
+    - Example of an ongoing project journal by @mpk [here](https://github.com/mpkendall/RXBox/blob/main/JOURNAL.md)
+    - Check out [the Codex](https://codex.hackclub.com/shipping/journaling) for additional reference.
 - more options coming soon maybe :"D
 
 ## How do I know if my journal is good enough?
