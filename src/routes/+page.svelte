@@ -65,8 +65,8 @@
 
             <div class="flex items-end">
                 <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-acon.webp" alt="@acon" class="max-w-25 -rotate-2 z-10 glow"/></a>
-                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-mpk.webp" alt="@mpk" class="max-w-25 rotate-1 z-2 glow"/></a>
-                <a href="https://hackclub.enterprise.slack.com/team/U04KEK4TS72" target="_blank"><img src="/wanted-sophia.webp" alt="@sophia" class="max-w-25 -rotate-3 z-30 glow"/></a>
+                <a href="https://hackclub.enterprise.slack.com/team/U06CRF4DLSU" target="_blank"><img src="/wanted-mpk.webp" alt="@mpk" class="max-w-25 rotate-1 z-2 glow"/></a>
+                <a href="https://hackclub.enterprise.slack.com/team/U083PK90X4G" target="_blank"><img src="/wanted-sophia.webp" alt="@sophia" class="max-w-25 -rotate-3 z-30 glow"/></a>
             </div>
 
         </div>
