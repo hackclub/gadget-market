@@ -52,4 +52,16 @@ In your message, make sure you include:
 - Description explaining what your project does!
 - **Project flyer!**
 
-Examples coming soon!
+[Here's an example of a ship message by @mpk:](https://hackclub.slack.com/archives/C0BMWLH69E1/p1786127617695119)
+
+<img src="/list-example.png" alt="list example" style="max-width: 800px; width: 100%; height: auto;" />
+
+An organizer will respond in thread in the next 1-5 business days. 
+
+After an organizer reacts with the ✅ emoji, it’s approved! We'll send you a form to fill out, to put your project onto the Market!
+
+These people have the ability to approve projects:
+- [@acon](https://hackclub.enterprise.slack.com/team/U04KEK4TS72)
+- [@mpk](https://hackclub.enterprise.slack.com/team/U06CRF4DLSU)
+- [@sophia](https://hackclub.enterprise.slack.com/team/U083PK90X4G)
+- [@cyao](https://hackclub.enterprise.slack.com/team/U07EQJY9YDD)
