@@ -64,4 +64,4 @@ More info coming soon.
 
 ## Flyer
 
-For instructions, read [How to List - Flyers](http://localhost:5173/docs/list#flyer)!
+For instructions, read [How to List - Flyers](http://gadget.hackclub.com/docs/list#flyer)!
