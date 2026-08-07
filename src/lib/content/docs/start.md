@@ -60,6 +60,10 @@ Example: capacitive touch keychain with backlit LEDs.
 
 Most keyboards / devboards would fall under this catagory! As well as most other gadgets.
 
+- [AngstromIO Devboard](https://github.com/Dieu-de-l-elec/AngstromIO-devboard) - one of the smallest devboards ever
+- [Alchemical-Cosmological-Badges](https://github.com/KaiPereira/Alchemical-Cosmological-Badges) - really pretty art-based PCB
+
+
 ---
 
 ### Up to 210 USD - Complex projects!
@@ -68,7 +72,6 @@ These projects typically involve complex routing, *many* components, and a low m
 
 - [Cheetah MX4 Mini](https://github.com/KaiPereira/Cheetah-MX4-Mini) - 3D printer motherboard
 - [CH32 Logic Analyzer](https://github.com/cheyao/ch32-logic-analyzer) - 200Msps 16ch logic analyzer + 20Msps oscilloscope
-- [AngstromIO Devboard](https://github.com/Dieu-de-l-elec/AngstromIO-devboard) - one of the smallest devboards
 
 ---
 

@@ -10,7 +10,7 @@ The design of your project needs to be fully shipped before you submit it! That 
 ## Repo requirements
 
 In your GitHub repo, make sure you have all source files of your project:
-- kicad.pro, kicad.sch, kicad.pcb, and gerber + drill files of your board
+- kicad_pro, kicad_sch, kicad_pcb, and gerber + drill files of your board
 - if there's any CAD: .STEP file of your project's 3D CAD model (and source design file format as well - .f3d, .FCStd, etc)
 - basic firmware (you can update this later when you have your board)
 - anything else that you used (libraries, references)
@@ -36,9 +36,15 @@ In your message, make sure you include:
 
 [Here's an example of a ship message by @Cyao:](https://hackclub.slack.com/archives/C0BNTG07VU0/p1785947719380689)
 
-<img src="/ship-example.webp" alt="ship example" style="max-width: 800px;" />
+<img src="/ship-example.webp" alt="ship example" style="max-width: 800px; width: 100%; height: auto;" />
 
 
 An organizer will respond in thread in the next 1-5 business days. 
 
-After a reviewer reacts with the ✅ emoji, it’s approved! We'll send you a form to fill out, to get your grant to order your parts.
+After an organizer reacts with the ✅ emoji, it’s approved! We'll send you a form to fill out, to get your grant to order your parts.
+
+These people have the ability to approve projects:
+- [@acon](https://hackclub.enterprise.slack.com/team/U04KEK4TS72)
+- [@mpk](https://hackclub.enterprise.slack.com/team/U06CRF4DLSU)
+- [@sophia](https://hackclub.enterprise.slack.com/team/U083PK90X4G)
+- [@cyao](https://hackclub.enterprise.slack.com/team/U07EQJY9YDD)
