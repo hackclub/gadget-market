@@ -46,6 +46,11 @@ You can also earn additional prizes by trading. Info coming soon!
 
 **The first wave of build grants will end Aug 21, 2026. Submit your project before then to get it funded!** (A second wave may or may not happen depending on how well this program does.) 
 
+Funding is used for the initial 5 PCBs, as well as additional components you need for your project. 
+
+- For the PCB + parts soldered onto the PCB that are not modules, you're allowed to order 5! (Assuming that the price is reasonable.)
+- For parts outside the PCB (ie: aluminum extrusions), you can order enough to assemble 1 of your project.
+
 There are three main tiers you can submit for, depending on the complexity of your project:
 
 ---
