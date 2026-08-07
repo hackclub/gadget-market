@@ -44,6 +44,8 @@ You can also earn additional prizes by trading. Info coming soon!
 
 ## Project build grants
 
+**The first wave of build grants will end Aug 21, 2026. Submit your project before then to get it funded!** (A second wave may or may not happen depending on how well this program does.) 
+
 There are three main tiers you can submit for, depending on the complexity of your project:
 
 ---
