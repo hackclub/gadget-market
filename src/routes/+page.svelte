@@ -1,7 +1,7 @@
 <script lang="ts">
     import Footer from '$lib/components/Footer.svelte';
     let { data } = $props();
-    let listings = $derived(data.listings);
+    let listings = $derived(data.listings.filter((listing) => listing.visible));
     let gridItems = $derived(
         listings.length < 4
             ? [...listings, ...Array(4 - listings.length).fill(null)]
