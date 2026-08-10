@@ -1,8 +1,6 @@
 <script lang="ts">
-	import { gsap } from 'gsap';
 	import { onMount } from 'svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import { Draggable, InertiaPlugin } from 'gsap/all';
 	let { data } = $props();
 	let listings = $derived(data.listings.filter((listing) => listing.visible));
 	let gridItems = $derived(
@@ -12,74 +10,89 @@
 	let note: HTMLDivElement;
 
 	onMount(() => {
-		gsap.registerPlugin(Draggable, InertiaPlugin);
+		let cancelled = false;
+		let cleanup: (() => void) | undefined;
 
-		const noteRotation = gsap.getProperty(note, 'rotation') as number;
-		const noteSway = gsap.quickTo(note, 'rotation', { duration: 0.2, ease: 'power3' });
-		let noteSettleTween: gsap.core.Tween | undefined;
+		(async () => {
+			const { gsap } = await import('gsap');
+			const { Draggable, InertiaPlugin } = await import('gsap/all');
+			if (cancelled) return;
 
-		const settleNote = () => {
-			noteSettleTween = gsap.to(note, {
-				rotation: noteRotation,
-				duration: 2.2,
-				ease: 'elastic.out(1.4, 0.5)',
-				overwrite: true
-			});
-		};
-		const draggables = Draggable.create('.dragg', {
-			bounds: '#top',
-			inertia: true,
-			throwResistance: 5000,
-			edgeResistance: 0.5,
-			maxDuration: 0.3,
-			overshootTolerance: 0.2,
-			snap: {
-				x: function (this: Draggable, endValue: number) {
-					const maxThrow = 70;
-					return Math.max(this.x - maxThrow, Math.min(this.x + maxThrow, endValue));
-				},
-				y: function (this: Draggable, endValue: number) {
-					const maxThrow = 70;
-					return Math.max(this.y - maxThrow, Math.min(this.y + maxThrow, endValue));
-				}
-			},
-			onPress() {
-				((index += 1),
-					gsap.to(this.target, {
-						scale: 1.05,
-						duration: 0.15,
-						zIndex: index
-					}));
-			},
+			gsap.registerPlugin(Draggable, InertiaPlugin);
 
-			onRelease() {
-				gsap.to(this.target, {
-					scale: 1.0,
-					duration: 0.15
+			const noteRotation = gsap.getProperty(note, 'rotation') as number;
+			const noteSway = gsap.quickTo(note, 'rotation', { duration: 0.2, ease: 'power3' });
+			let noteSettleTween: gsap.core.Tween | undefined;
+
+			const settleNote = () => {
+				noteSettleTween = gsap.to(note, {
+					rotation: noteRotation,
+					duration: 2.2,
+					ease: 'elastic.out(1.4, 0.5)',
+					overwrite: true
 				});
-			}
-		});
+			};
+			const draggables = Draggable.create('.dragg', {
+				bounds: '#top',
+				inertia: true,
+				throwResistance: 5000,
+				edgeResistance: 0.5,
+				maxDuration: 0.3,
+				overshootTolerance: 0.2,
+				snap: {
+					x: function (this: Draggable, endValue: number) {
+						const maxThrow = 70;
+						return Math.max(this.x - maxThrow, Math.min(this.x + maxThrow, endValue));
+					},
+					y: function (this: Draggable, endValue: number) {
+						const maxThrow = 70;
+						return Math.max(this.y - maxThrow, Math.min(this.y + maxThrow, endValue));
+					}
+				},
+				onPress() {
+					((index += 1),
+						gsap.to(this.target, {
+							scale: 1.05,
+							duration: 0.15,
+							zIndex: index
+						}));
+				},
 
-		const noteDraggable = Draggable.create('.note', {
-			type: 'rotation',
-			onPress() {
+				onRelease() {
+					gsap.to(this.target, {
+						scale: 1.0,
+						duration: 0.15
+					});
+				}
+			});
+
+			const noteDraggable = Draggable.create('.note', {
+				type: 'rotation',
+				onPress() {
+					noteSettleTween?.kill();
+				},
+				onRelease: settleNote
+			});
+			const onNoteMove = (e: MouseEvent) => {
 				noteSettleTween?.kill();
-			},
-			onRelease: settleNote
-		});
-		const onNoteMove = (e: MouseEvent) => {
-			noteSettleTween?.kill();
-			const rect = note.getBoundingClientRect();
-			const relX = (e.clientX - rect.left) / rect.width - 0.5;
-			noteSway(noteRotation + relX * 12);
-		};
-		note.addEventListener('mousemove', onNoteMove);
-		note.addEventListener('mouseleave', settleNote);
+				const rect = note.getBoundingClientRect();
+				const relX = (e.clientX - rect.left) / rect.width - 0.5;
+				noteSway(noteRotation + relX * 12);
+			};
+			note.addEventListener('mousemove', onNoteMove);
+			note.addEventListener('mouseleave', settleNote);
+
+			cleanup = () => {
+				draggables.forEach((d) => d.kill());
+				noteDraggable.forEach((d) => d.kill());
+				note.removeEventListener('mousemove', onNoteMove);
+				note.removeEventListener('mouseleave', settleNote);
+			};
+		})();
+
 		return () => {
-			draggables.forEach((d) => d.kill());
-			noteDraggable.forEach((d) => d.kill());
-			note.removeEventListener('mousemove', onNoteMove);
-			note.removeEventListener('mouseleave', settleNote);
+			cancelled = true;
+			cleanup?.();
 		};
 	});
 </script>
