@@ -65,7 +65,7 @@ Example: capacitive touch keychain with backlit LEDs.
 
 ### Up to 120 USD - Medium projects!
 
-Most keyboards / devboards would fall under this catagory! As well as most other gadgets.
+Most keyboards / devboards would fall under this catagory! As well as most other gadgets. 
 
 - [AngstromIO Devboard](https://github.com/Dieu-de-l-elec/AngstromIO-devboard) - one of the smallest devboards ever
 - [Alchemical-Cosmological Badges](https://github.com/KaiPereira/Alchemical-Cosmological-Badges) - really pretty art-based PCB
