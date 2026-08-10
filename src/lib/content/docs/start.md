@@ -68,7 +68,7 @@ Example: capacitive touch keychain with backlit LEDs.
 Most keyboards / devboards would fall under this catagory! As well as most other gadgets.
 
 - [AngstromIO Devboard](https://github.com/Dieu-de-l-elec/AngstromIO-devboard) - one of the smallest devboards ever
-- [Alchemical-Cosmological-Badges](https://github.com/KaiPereira/Alchemical-Cosmological-Badges) - really pretty art-based PCB
+- [Alchemical-Cosmological Badges](https://github.com/KaiPereira/Alchemical-Cosmological-Badges) - really pretty art-based PCB
 
 
 ---
