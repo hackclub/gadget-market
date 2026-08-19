@@ -1,19 +1,27 @@
 <script>
-  let { width = 60, mobileWidth = 30 } = $props();
+  let { width = 60, mobileWidth = 30, skipAnimation = false } = $props();
 </script>
 
 <div
   class="wood-border left"
+  class:no-animate={skipAnimation}
   style="--width: {width}px; --mobile-width: {mobileWidth}px"
   aria-hidden="true"
 ></div>
 <div
   class="wood-border right"
+  class:no-animate={skipAnimation}
   style="--width: {width}px; --mobile-width: {mobileWidth}px"
   aria-hidden="true"
 ></div>
 
 <style>
+  .wood-border.no-animate {
+    animation: none;
+    opacity: 1;
+    translate: 0 0;
+  }
+
   .wood-border {
     position: absolute;
     top: 0;

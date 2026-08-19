@@ -44,7 +44,7 @@ You can also earn additional prizes by trading. Info coming soon!
 
 ## Project build grants
 
-**The first wave of build grants will end Aug 21, 2026. Submit your project before then to get it funded!** (A second wave may or may not happen depending on how well this program does.) 
+**The first wave of build grants will end Aug 31, 2026. Submit your project before then to get it funded!** (A second wave may or may not happen depending on how well this program does.) 
 
 Funding is used for the initial 5 PCBs, as well as additional components you need for your project. 
 

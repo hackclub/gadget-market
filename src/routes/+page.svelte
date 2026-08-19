@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { afterNavigate } from '$app/navigation';
 	import Footer from '$lib/components/Footer.svelte';
 	let { data } = $props();
 	let listings = $derived(data.listings.filter((listing) => listing.visible));
@@ -8,6 +9,13 @@
 	);
 	let index = 31;
 	let note: HTMLDivElement;
+
+	// Skip the entrance animations when arriving via browser back/forward,
+	// so returning from a listing doesn't replay them or fight scroll restoration.
+	let skipEntranceAnimation = $state(false);
+	afterNavigate(({ type }) => {
+		skipEntranceAnimation = type === 'popstate';
+	});
 
 	onMount(() => {
 		let cancelled = false;
@@ -97,6 +105,7 @@
 	});
 </script>
 
+<div class:no-animate={skipEntranceAnimation}>
 <div class="page-outline" id="top">
 	<img
 		src="/landingtop.webp"
@@ -113,8 +122,17 @@
 		/></a
 	>
 
+	<div class="fade-in-up fade-delay-2 mt-2 flex flex-wrap justify-center gap-2 px-4 md:block md:justify-normal md:px-0 md:text-right md:mr-16">
+		<a href="/docs/start" class="glow inline-block bg-white px-6 py-3 md:px-16 md:pt-4 md:pb-3 shadow transition hover:scale-103 md:m-1">
+			<p class="heavywei text-lg md:text-2xl">Getting Started</p>
+		</a>
+		<a href="/docs/submit" class="glow inline-block bg-white px-6 py-3 md:px-16 md:pt-4 md:pb-3 shadow transition hover:scale-103 md:m-1">
+			<p class="heavywei text-lg md:text-2xl">How to Submit</p>
+		</a>
+	</div>
+
 	<div
-		class="fade-in-up fade-delay-1 my-18 flex h-fit w-full flex-col items-center justify-center gap-0"
+		class="fade-in-up fade-delay-1 my-12 flex h-fit w-full flex-col items-center justify-center gap-0"
 	>
 		<div class="mx-auto flex w-full flex-col items-center justify-center">
 			<img src="/bluepin.svg" alt="" class="z-30 -mb-3 w-6" />
@@ -165,29 +183,9 @@
 		</div>
 	</div>
 
-	<div class="fade-in-up fade-delay-2 flex flex-wrap items-center justify-center space-x-10 space-y-10">
-		<div class="flex items-center">
-			<a href="/docs/start">
-				<img
-					src="/flyer-getting-started.png"
-					alt="Getting Started"
-					class="dragg glow relative w-36 -rotate-2 md:w-52"
-				/>
-			</a>
-			<a href="/docs/design-requirements" class="mt-6 ml-2">
-				<img
-					src="/flyer-design-reqs.png"
-					alt="Project Design Requirements"
-					class="dragg glow relative w-36 rotate-1 md:w-52"
-				/>
-			</a>
-			<a href="/docs/list" class="-mt-6 ml-2">
-				<img
-					src="/flyers-list.png"
-					alt="How to List Your Projects on the Market"
-					class="dragg glow relative w-36 rotate-3 md:w-52"
-				/>
-			</a>
+	<div class="fade-in-up fade-delay-2 flex flex-wrap items-center justify-center gap-10">
+		<div class="flex items-center justify-center">
+			<img src="/bannerthing.png" alt="make gadget, then trade!" class="w-[92vw] max-w-4xl md:w-full"/>
 		</div>
 
 		<div class="group flex flex-col items-center justify-center">
@@ -213,7 +211,7 @@
 	<p class="mb-4 text-center text-[#B55108]">
 		<i>click on any of the flyers below to see the project listing!</i>
 	</p>
-	<div class="grid max-w-6xl grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+	<div class="grid max-w-6xl grid-cols-2 gap-4 xl:grid-cols-4">
 		{#each gridItems as listing}
 			<div>
 				{#if listing}
@@ -238,8 +236,16 @@
 <div class="fade-in-up fade-delay-5">
 	<Footer />
 </div>
+</div>
 
 <style>
+	.no-animate .animate-in-top,
+	.no-animate .fade-in-up {
+		animation: none;
+		opacity: 1;
+		translate: 0 0;
+	}
+
 	.animate-in-top {
 		opacity: 0;
 		animation: slide-in-top 350ms ease-out 700ms forwards;
