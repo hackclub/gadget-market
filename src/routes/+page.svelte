@@ -167,25 +167,25 @@
 
 	<div class="fade-in-up fade-delay-2 flex flex-wrap items-center justify-center space-x-10 space-y-10">
 		<div class="flex items-center">
-			<a href="/docs/start">
+			<a href="/docs/start" class="dragg">
 				<img
 					src="/flyer-getting-started.png"
 					alt="Getting Started"
-					class="dragg glow relative w-36 -rotate-2 md:w-52"
+					class="glow relative w-36 -rotate-2 md:w-52"
 				/>
 			</a>
-			<a href="/docs/design-requirements" class="mt-6 ml-2">
+			<a href="/docs/design-requirements" class="mt-6 ml-2 dragg">
 				<img
 					src="/flyer-design-reqs.png"
 					alt="Project Design Requirements"
-					class="dragg glow relative w-36 rotate-1 md:w-52"
+					class="glow relative w-36 rotate-1 md:w-52"
 				/>
 			</a>
-			<a href="/docs/list" class="-mt-6 ml-2">
+			<a href="/docs/list" class="-mt-6 ml-2 dragg">
 				<img
 					src="/flyers-list.png"
 					alt="How to List Your Projects on the Market"
-					class="dragg glow relative w-36 rotate-3 md:w-52"
+					class="glow relative w-36 rotate-3 md:w-52"
 				/>
 			</a>
 		</div>
