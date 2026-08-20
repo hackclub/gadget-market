@@ -70,6 +70,8 @@ If you click on the 3D viewer, it should show up as gold!
 
 ![](https://cdn.hackclub.com/01a02003-1ce8-78a9-b8a2-ea18a10f0a20/kicadcopper3.png)
 
+When you order a PCB, you can choose this to be silver (HASL) or gold (ENIG). Since ENIG is ~20 USD more expensive, you are expected to order with silver, unless your PCB requires the better specs.
+
 ## FR4 art
 
 FR4 is the semi-translucent fiberglass material that PCBs have on their inside! 
