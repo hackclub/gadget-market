@@ -18,7 +18,7 @@ Then, go to your PCB editor, and click on the Fabrication Toolkit symbol.
 
 It should generate a .zip file of your gerber and drill files!
 
-*Alternative method: in the PCB editor, click File > Fabrication Outputs > Gerbers (.gbr...)
+*Alternative method: in the PCB editor, click File > Fabrication Outputs > Gerbers (.gbr...) > Plot. Remember to also generate Drill files!*
 
 ## Where do you order from?
 
