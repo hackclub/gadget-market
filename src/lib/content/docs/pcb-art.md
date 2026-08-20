@@ -91,3 +91,5 @@ Note that you need expose the FR4 on both sides in order to shine LEDs through! 
 It should show up as a brown-ish color in the 3D viewer:
 
 ![](https://cdn.hackclub.com/01a0201e-52a6-78d2-95ea-e9d9fad8897d/kicadfr43.png)
+
+Let @acon know if you have any questions of if there's anything you'd like to know!
