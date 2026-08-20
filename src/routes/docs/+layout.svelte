@@ -54,20 +54,6 @@
 						>
 							{doc.title}
 						</a>
-						{#if active && doc.headings.length}
-							<ul class="mt-1 ml-3 border-l border-[#4D2A10]/30 pl-3">
-								{#each doc.headings as heading}
-									<li>
-										<a
-											href="/docs/{doc.slug}#{heading.id}"
-											class="block py-1 text-sm opacity-75 transition hover:opacity-100"
-										>
-											{heading.text}
-										</a>
-									</li>
-								{/each}
-							</ul>
-						{/if}
 					</div>
 				{/each}
 			</div>
