@@ -43,7 +43,8 @@ const DOC_ORDER = [
 	'mail',
 	'skip',
 	'prizes',
-	'pcb-art'
+	'pcb-art',
+	'ordering-pcbs'
 ];
 
 function orderIndex(slug) {
