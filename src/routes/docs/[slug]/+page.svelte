@@ -96,6 +96,12 @@
 		max-width: 100%;
 	}
 
+	@media (min-width: 640px) {
+		article :global(img) {
+			max-width: min(600px, 100%);
+		}
+	}
+
 	article :global(.instructions-grid) {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);

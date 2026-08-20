@@ -47,6 +47,11 @@
 			>
 				{#each data.docs as doc}
 					{@const active = page.params.slug === doc.slug}
+					{#if doc.slug === 'pcb-art'}
+						<p class="mt-8 mb-1 px-3 text-xs font-bold tracking-wide text-[#F1EFE2]/50">
+							Guides
+						</p>
+					{/if}
 					<div class="mb-1">
 						<a
 							href="/docs/{doc.slug}"
