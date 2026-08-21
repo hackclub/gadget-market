@@ -44,7 +44,8 @@ const DOC_ORDER = [
 	'skip',
 	'prizes',
 	'pcb-art',
-	'ordering-pcbs'
+	'ordering-pcbs',
+	'ch32-devboard'
 ];
 
 function orderIndex(slug) {
