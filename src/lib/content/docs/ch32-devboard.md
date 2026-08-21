@@ -73,7 +73,7 @@ We need a button for each of them, so press A, and search for SW_Push, and put t
 
 Press P and add another GND and +3v3. Wire the button next to RST to ground, and the other one to power!
 
-For the Boot button, you also want to add a resistor that is connected to ground. This is called a "pull-down resistor" - this is so that the pin is not left floating (not connected to anything, which picks up noise) when it is not pressed! This keeps the signal always high (+3v3) or low (GND); when the button is pressed, since current choose the path of least resistance, which high instead of low.
+For the Boot button, you also want to add a resistor that is connected to ground. This is called a "pull-down resistor" - this is so that the pin is not left floating (not connected to anything, which picks up noise) when it is not pressed! This keeps the signal always high (+3v3) or low (GND); when the button is pressed, since the current chooses the path of least resistance, it'll be high instead of low.
 
 ![](https://cdn.hackclub.com/01a0257e-5088-782d-b402-5784fb64ad30/ch32-12.png)
 
