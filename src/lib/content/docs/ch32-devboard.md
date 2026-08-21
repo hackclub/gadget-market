@@ -2,6 +2,8 @@
 
 Here's how to make a CH32 devboard! This tutorial is still a work-in-progress, but the schematic part is done :D
 
+NOTE: you are expected to add features to your PCB to make it unique! Don't just copy the tutorial - your project will not be approved if you do.
+
 In this tutorial, we'll be using a CH32V203, which is catagorized for small-and-medium capacity general-purpose use on the [CH32V203 datasheet](https://www.lcsc.com/datasheet/C5142280.pdf?lcsc_vid=QFNXBlYEE1cLBgJVR1VdVV1XEgUNV1dSQVdbXgICElMxVlNeQFJcUVNRT1ZXVjtW). 
 
 CH32 is a microcontroller! What's special about the CH32V203?
