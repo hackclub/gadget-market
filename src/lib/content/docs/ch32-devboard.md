@@ -2,9 +2,13 @@
 
 Here's how to make a CH32 devboard! This tutorial is still a work-in-progress, but the schematic part is done :D
 
-CH32 is a microcontroller!
-
 In this tutorial, we'll be using a CH32V203, which is catagorized for small-and-medium capacity general-purpose use on the [CH32V203 datasheet](https://www.lcsc.com/datasheet/C5142280.pdf?lcsc_vid=QFNXBlYEE1cLBgJVR1VdVV1XEgUNV1dSQVdbXgICElMxVlNeQFJcUVNRT1ZXVjtW). 
+
+CH32 is a microcontroller! What's special about the CH32V203?
+
+- it's cheap - the ones we're using are <1 USD each!
+- it's got built in capacitive touch pins (search TKey on the datasheet to learn more)
+- they're pretty small 
 
 Some examples of projects made with a CH32V203, both by @cyao: 
 
@@ -14,12 +18,6 @@ Some examples of projects made with a CH32V203, both by @cyao:
 The specific one used in this tutorial is CH32V203G6U6, which you can find on LCSC [here](https://www.lcsc.com/product-detail/C5142280.html?s_z=n_q_CH32V203&lcsc_vid=QFNXBlYEE1cLBgJVR1VdVV1XEgUNV1dSQVdbXgICElMxVlNeQFJcUVNRT1ZXVjtW):
 
 ![](https://cdn.hackclub.com/01a02501-6e1a-73f8-9a09-5242e9832cb9/ch32-1.png)
-
-What's special about the CH32V203?
-
-- it's cheap - the ones we're using are <1 USD each!
-- it's got built in capacitive touch pins (search TKey on the datasheet to learn more)
-- they're pretty small 
 
 ## Schematic 
 
@@ -117,7 +115,7 @@ We're done with the USB-C now!
 
 ### Voltage regulator
 
-The power pins on the CH32 are currently not connected to a power source, so it can't currently turn on - let's do that now. We want what's coming from VBUS from the USB-C to the VCC pins. However, CH32 takes in +3v3, and the power coming from the USB-C is +5v, since it'll be connected to a laptop.
+The power pins on the CH32 are currently not connected to a power source, so it can't currently turn on - let's do that now. We want what's coming from VBUS from the USB-C to the VDD pins. However, CH32 takes in +3v3, and the power coming from the USB-C is +5v, since it'll be connected to a laptop.
 
 In order to turn +5v into +3v3 to not fry the CH32, we need to use a voltage regulator - that'll covert +5v to +3v3! 
 
@@ -141,7 +139,7 @@ Now your schematic should look something like this:
 
 ![](https://cdn.hackclub.com/01a025ef-b0c1-7624-979a-597fbd5e4c89/ch32-21.png)
 
-Yay! you're almost done. To make it a devboard, break out the unused pins on the CH32! You can also make it anything else by attaching the various pins to different buttons, displays, sensors, etc.
+Yay! you're almost done the schematic. To make it a devboard, break out the unused pins on the CH32! You can also make it anything else by attaching the various pins to different buttons, displays, sensors, etc.
 
 Footprint assigning and PCB part tutorial coming soon!
 
