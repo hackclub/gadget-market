@@ -51,7 +51,7 @@ Press P again, and search for GND. Put it below VSS and connect them.
 
 ![](https://cdn.hackclub.com/01a0255d-0486-7d06-9525-a4c770a627d9/ch32-7.png)
 
-This is how the chip is going to get voltage! We still need to add a power source, but we'll be doing that later.
+This is how the chip is going to get power! We still need to add a power source, but we'll be doing that later.
 
 The next thing we're adding are decoupling capacitors. These are used to stabilize power and to filter out noise going to the CH32. 
 
