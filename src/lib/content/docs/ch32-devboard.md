@@ -121,11 +121,11 @@ The power pins on the CH32 are currently not connected to a power source, so it 
 
 In order to turn +5v into +3v3 to not fry the CH32, we need to use a voltage regulator - that'll covert +5v to +3v3! 
 
-The specific voltage regulator we'll use is the XC6206P332MR, which you can find on LCSC [here](https://www.lcsc.com/product-detail/C51886221.html?s_z=n_q_C51886221&globalKeyword=C51886221):
+The specific voltage regulator we'll use is the XC6206P332MR-G, which you can find on LCSC [here](https://www.lcsc.com/product-detail/C5446.html?s_z=n_q_C5446&globalKeyword=C5446):
 
-![](https://cdn.hackclub.com/01a025b3-b56d-7701-8bff-d2f5af6caa6e/ch32-18.png)
+![](https://cdn.hackclub.com/01a0346f-eebe-74f6-aeb3-6a0bdeade46a/ch22.png)
 
-It's output voltage is fixed at 3.3v, which is exactly what we need - read the datasheet [here](https://www.lcsc.com/datasheet/C51886221.pdf?lcsc_vid=QFNXBlYEE1cLBgJVR1VdVV1XEgUNV1dSQVdbXgICElMxVlNeQFJdX1xVRFZZXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D).
+It's output voltage is fixed at 3.3v, which is exactly what we need - read the datasheet [here](https://www.lcsc.com/datasheet/C5446.pdf?lcsc_vid=QFNXBlYEE1cLBgJVR1VdVV1XEgUNV1dSQVdbXgICElMxVlNeQFRWUVRQQlJYUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D).
 
 Press A, and add the part named XC6206PxxxMR, and place it anywhere on your schematic.
 
